@@ -1,0 +1,9 @@
+[project]
+name = "lotto645-lab"
+version = "1.0.0"
+description = "Reproducible Korean Lotto 6/45 historical analysis and local dashboard"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+lotto645 = "lotto.__main__:main"
